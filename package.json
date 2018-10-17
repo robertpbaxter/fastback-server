@@ -1,14 +1,13 @@
 {
   "name": "instructional-app",
-  "description": "fastback, a mobile feedback app",
   "version": "1.0.0",
+  "description": "fastback, a mobile feedback app",
+  "main": "server.js",
   "engines": {
     "node": "8.11.3"
   },
   "scripts": {
-    "client": "cd client && yarn start",
-    "server": "nodemon server.js",
-    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\"",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "dependencies": {
