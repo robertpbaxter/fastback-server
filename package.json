@@ -1,6 +1,10 @@
 {
   "name": "instructional-app",
+  "description": "fastback, a mobile feedback app",
   "version": "1.0.0",
+  "engines": {
+    "node": "8.11.3"
+  },
   "scripts": {
     "client": "cd client && yarn start",
     "server": "nodemon server.js",
