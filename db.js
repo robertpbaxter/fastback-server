@@ -1,9 +1,9 @@
 const Sequelize = require("sequelize");
 
 const sequelize = new Sequelize(
-  `postgresql://postgres:${encodeURIComponent(
-    process.env.PW
-  )}@localhost/instructionalapp`,
+  "postgresql://postgres:" +
+    encodeURIComponent(process.env.PW) +
+    "@localhost/instructionalapp",
   {
     dialect: "postgres"
   }
