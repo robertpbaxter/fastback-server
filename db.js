@@ -1,19 +1,14 @@
 const Sequelize = require("sequelize");
 
-//Use this for development
-// const sequelize = new Sequelize(
-//   "postgresql://postgres:" +
-//     encodeURIComponent(process.env.PW) +
-//     "@localhost/instructionalapp",
-//   {
-//     dialect: "postgres"
-//   }
-// );
-
-//Use this for deployment
-const sequelize = new Sequelize(process.env.DATABASE_URL, {
-  dialect: "postgres"
-});
+const sequelize = new Sequelize(
+  process.env.DATABASE_URL ||
+    `postgresql://postgres:${encodeURIComponent(
+      process.env.PW
+    )}@localhost/instructionalapp`,
+  {
+    dialect: "postgres"
+  }
+);
 
 sequelize
   .authenticate()
