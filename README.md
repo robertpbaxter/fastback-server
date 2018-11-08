@@ -2,13 +2,13 @@
 
 This repo represents the back end web API created by Robert Baxter of Eleven Fifty Academy. This half of a full stack project was submitted on week 8 in completion of the Blue Badge phase of Eleven Fifty's JavaScript boot camp.
 
-View the deployed application (in its current state) at <a href="https://fastback-mobile-feedback.herokuapp.com/">https://fastback-mobile-feedback.herokuapp.com/</a>
+View the deployed application (in its current state) at https://fastback-mobile-feedback.herokuapp.com
 
-Front-end repository: <a href="https://github.com/robertpbaxter/red-badge-client">https://github.com/robertpbaxter/red-badge-client</a>
+Front-end repository: https://github.com/robertpbaxter/red-badge-client
 
 ## Note:
 
-This repository also serves as the web API for a weekend experiment in learing and deploying an app using Ember.js. The Ember repository can be viewed at <a href="https://github.com/robertpbaxter/ember-fastback-client">https://github.com/robertpbaxter/ember-fastback-client</a>
+This repository also serves as the web API for a weekend experiment in learing and deploying an app using Ember.js. The Ember repository can be viewed at https://github.com/robertpbaxter/ember-fastback-client
 
 # Features:
 
